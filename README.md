@@ -97,6 +97,7 @@ path to GRM_file_3
 path to GRM_file_4
 path to GRM_file_5
 ```
+If there is an issue of population structure or cryptic relatedness for partial tissues/conditions, set the path as "NA" for those tissues/conditions without GRM files.
 
 -A: run mmQTL in random-effect or fixed-effect model when performing meta-analysis.
 
