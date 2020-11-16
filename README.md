@@ -1,8 +1,8 @@
 ![](MMQTL_figure1_true.png)
 
-```
+
 Figure 1. Illustration of mmQTL package. a-c, graphic demonstration of the problem to solve in mmQTL. Upper panel represents three tissue regions, consisting of two cell types, colored in blue for minor cell type and orange for major cell type, with different compositions among regions, and gene expression regulated by cell-type specific eQTL (same color as their regulated target cell types). In the standard colocalization pipeline, we miss the co-localized signal between the eQTL signal and GWAS hit if a minor rare cell type is the causal. b, phenotype correlated due to sample overlapping or polygenetic background in repeat-measurement or multiple-condition experiment design. c, Improvement of fine-mapping in meta-analysis. pp on Y axis means posterior probability in fine-mapping. d, schematic representation of mmQTL steps in meta-eQTL detection. MmQTL disentangles the eQTL profile in the meta-analysis framework (top and middle panel), and evaluates the relationship with phenotype traits through colocalization analysis (down panel).
-```
+
 # mmQTL: multivariate multiple QTL
 
 mmQTL is a flexible software toolkit used to conduct multiple QTL detection with control for population structure and sample overlapping.
