@@ -43,13 +43,13 @@ To install mmQTL you can
 To get mmQTL running options, you can type
 
 ```
-sh MMQTL23 -h
+MMQTL23 -h
 ```
 
 Example code
 
 ```
-sh MMQTL23 -b  -P  pheno_file.txt   -Z  geno_file.txt   -R GRM_file.txt -a feature_annotation.txt  -A random   -gene  gene_name 
+MMQTL23 -b  -P  pheno_file.txt   -Z  geno_file.txt   -R GRM_file.txt -a feature_annotation.txt  -A random   -gene  gene_name 
 ```
 
 Given that we have 5 tissues/conditions, named as condition1, condition2, condition3, condition4, condition5. 
