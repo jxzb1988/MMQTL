@@ -14,7 +14,6 @@ Currently, mmQTL is supported for 64-bit Linux platforms.
 
 * [Key features](#key-features)
 * [Installation](#installation)
-  * [Precompiled binaries](#precompiled-binaries)
 * [Run mmQTL](#run-mmQTL)
 * [Building from source](#building-from-source)
 * [Input data formats](#input-data-formats)
