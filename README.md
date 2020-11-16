@@ -40,7 +40,13 @@ To install mmQTL you can
 
 ## Run mmQTL
 
-After downloading the precompiled mmQTL code, run the command "chmod +x MMQTL23" to change the mode.
+After downloading the precompiled mmQTL code, run the command
+
+```
+chmod +x MMQTL23
+```
+
+to change the mode.
 
 To get mmQTL running options, you can type
 
