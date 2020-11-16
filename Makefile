@@ -9,10 +9,7 @@ CFLAGS= -c -Wall -g -O3  -I $(DIC)
 
 
 
-
-
-
-LDFLAGS= -DWITH_LAPACK -m64 -static  -I/hpc/users/zengb02/work/software/DPR/gsl-2.5/myObj/include/ -L/hpc/users/zengb02/work/software/lib/zlib-1.2./zlib-1.2.11/lib/  -I/hpc/users/zengb02/work/software/lib/zlib-1.2./zlib-1.2.11/include/  -I/hpc/users/zengb02/work/software/DPR/ATLAS/ATLAS/myobj/include/  -I/hpc/users/zengb02/work/software/Sinai_Package/MMeQTL/MMeQTL_v2/boost_1_58_0/include    -L/hpc/users/zengb02/work/software/lib/openblas-0.2./lib/  -L/hpc/users/zengb02/work/software/lib/  -L/hpc/users/zengb02/work/software/Sinai_Package/MMeQTL/MMeQTL_v2/boost_1_58_0/lib  -I  $(DIC)/armadillo-9.400.3/include    -L/hpc/users/zengb02/work/software/DPR/gsl-2.5/myObj/lib -lgsl -lgslcblas     /hpc/users/zengb02/work/software/DPR/lapack/liblapack.a -lgfortran   /hpc/users/zengb02/work/software/DPR/ATLAS/ATLAS/myobj/lib/libatlas.a /hpc/users/zengb02/work/software/DPR/blas/libblas.a  -lz   -fopenmp   -lquadmath  
+LDFLAGS= -DWITH_LAPACK -m64 -static  -I gsl-2.5/myObj/include/ -L lib-1.2./zlib-1.2.11/lib/  -I zlib-1.2.11/include/  -I ATLAS/myobj/include/  -I boost_1_58_0/include    -L openblas-0.2./lib/  -L boost_1_58_0/lib  -I  $(DIC)/armadillo-9.400.3/include    -L gsl-2.5/myObj/lib -lgsl -lgslcblas     lapack/liblapack.a -lgfortran   ATLAS/myobj/lib/libatlas.a blas/libblas.a  -lz   -fopenmp   -lquadmath  
 
 
 
