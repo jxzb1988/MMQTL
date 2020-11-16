@@ -63,45 +63,40 @@ explanation for parameters:
 
 -P: specify the location of the file containing the location of phenotype files for each tissue/condition;
 
+
 This file should be: 
 
+```
 path to phenotype_file_1
-
 path to phentoype_file_2
-
 path to phenotype_file_3
-
 path to phentoype_file_4
-
 path to phentoype_file_5
+```
 
 -Z: specify the location of the file containing the location of genotype files for each tissue/condition. The format for the genotype should be in PLINK format
 
 This file should be: 
 
+```
 path to genotype_file_1
-
 path to genotype_file_2
-
 path to genotype_file_3
-
 path to genotype_file_4
-
 path to genotype_file_5
+```
 
 -R: specify the location of the file containing the location of genetic relatedness matrix files for each tissue/condtional.
 
 This file should be: 
 
+```
 path to GRM_file_1
-
 path to GRM_file_2
-
 path to GRM_file_3
-
 path to GRM_file_4
-
 path to GRM_file_5
+```
 
 -A: run mmQTL in random-effect or fixed-effect model when performing meta-analysis.
 
