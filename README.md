@@ -46,14 +46,16 @@ sh mmQTL23 -h
 Example code
 
 ```
-MMQTL23 -b  -P  pheno_file.txt   -Z  geno_file.txt   -a feature_annotation.txt  -A random   -gene  gene_name 
+MMQTL23 -b  -P  pheno_file.txt   -Z  geno_file.txt   -R GRM_file.txt -a feature_annotation.txt  -A random   -gene  gene_name 
 ```
 
 explanation for parameters: 
 
 -P: specify the location of the file containing the location of phenotype files for each tissue/condition;
 
--Z: specific the location of the file containing the location of genotype files for each tissue/condition. The format for the genotype should be in PLINK format
+-Z: specify the location of the file containing the location of genotype files for each tissue/condition. The format for the genotype should be in PLINK format
+
+-R: specify the location of the file containing the location of genetic relatedness matrix files for each tissue/condtional.
 
 -A: run mmQTL in random-effect or fixed-effect model when performing meta-analysis.
 
