@@ -40,7 +40,7 @@ To install mmQTL you can
 To get mmQTL running options, you can type
 
 ```
-sh mmQTL23 -h
+sh MMQTL23 -h
 ```
 
 Example code
