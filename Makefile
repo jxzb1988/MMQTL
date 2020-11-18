@@ -1,6 +1,6 @@
-CC=/hpc/packages/minerva-common/gcc/7.3.0/bin/g++
+#CC=/hpc/packages/minerva-common/gcc/7.3.0/bin/g++
 
-#CC=g++
+CC=g++
 
 DIC=$(PWD)
 CFLAGS= -c -Wall -g -O3  -I $(DIC)  
