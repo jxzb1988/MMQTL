@@ -63,11 +63,11 @@ Given that we have 5 tissues/conditions, named as condition1, condition2, condit
 
 For phenotype, the phenotype files (gxn matrix, g is the number of explored genes, and n is the sample size) are named as phenotype_file_1, phenotype_file2, phenotype_file3, phentoype_file4, phenotype_file5;
 
-For genotype, the binary plink-format genotype file are named as genotype_file_1, genotype_file_2, genotype_file_3, genotype_file_4, genotype_file_5;
+For genotype, the binary plink-format genotype files are named as genotype_file_1, genotype_file_2, genotype_file_3, genotype_file_4, genotype_file_5;
 
-You need an annotation file for the exploed features a bed format: chr start end feature_name;
+You need an annotation file for the exploed features in bed format: chr start end feature_name;
 
-Optional, to perform mixed linear model for control for population strucutre, you need to provide GRM file, nameds as GRM_file_1, GRM_file_2, GRM_file_3, GRM_file_4, GRM_file_5.
+Optional, to apply mixed linear model to control for population strucutre, you need to provide GRM files, named as GRM_file_1, GRM_file_2, GRM_file_3, GRM_file_4, GRM_file_5.
 
 explanation for parameters: 
 
@@ -111,7 +111,7 @@ If there is an issue of population structure or cryptic relatedness for partial 
 
 -A: run mmQTL in random-effect or fixed-effect model when performing meta-analysis.
 
--gene: Specify the gene/feature for which that you want to detect eQTL.
+-gene: Specify the gene/feature for which that you want to detect eQTL, which is a required parameter.
 
 ## Building from source
 
