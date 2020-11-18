@@ -21,7 +21,7 @@ blas_dir = /hpc/users/zengb02/work/software/DPR/blas
 
 
 
-LDFLAGS= -DWITH_LAPACK -m64 -static  -I${gsl_dir}/include/ -L${Zlib_dir}/lib/  -I${Zlib_dir}/include/  -I${atlas_dir}/include/  -I${boost_dir}/include    -L${openblas_dir}/lib/  -L/hpc/users/zengb02/work/software/lib/  -L${boost_dir}/lib  -I  $(DIC)/armadillo-9.400.3/include    -L${gsl_dir}/lib -lgsl -lgslcblas     ${lapack_dir}/liblapack.a -lgfortran   ${atlas_dir}/lib/libatlas.a ${blas_dir}/libblas.a  -lz   -fopenmp   -lquadmath
+LDFLAGS= -DWITH_LAPACK -m64 -static  -I${gsl_dir}/include/ -L${Zlib_dir}/lib/  -I${Zlib_dir}/include/  -I${atlas_dir}/include/  -I${boost_dir}/include    -L${openblas_dir}/lib/    -L${boost_dir}/lib  -I  $(DIC)/armadillo-9.400.3/include    -L${gsl_dir}/lib -lgsl -lgslcblas     ${lapack_dir}/liblapack.a -lgfortran   ${atlas_dir}/lib/libatlas.a ${blas_dir}/libblas.a  -lz   -fopenmp   -lquadmath
 
 
 
