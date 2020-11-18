@@ -115,7 +115,11 @@ If there is an issue of population structure or cryptic relatedness for partial 
 
 ## Building from source
 
+Before compiling, please change the directionaries for the libraries, and unzip "armadillo-9.400.3.zip"
+
+```
 make
+```
 
 ## Input data formats
 
