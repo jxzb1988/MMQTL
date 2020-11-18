@@ -113,7 +113,7 @@ If there is an issue of population structure or cryptic relatedness for partial 
 
 -gene: Specify the gene/feature for which that you want to detect eQTL, which is a required parameter.
 
-We have prepared a test dataset, which is deposited in google drive: https://drive.google.com/file/d/1G8ccfR9vPliMs_KKxAdW1CnA2C8bniZy/view?usp=sharing
+We have prepared a test dataset, which is deposited in google drive: https://drive.google.com/file/d/1G8ccfR9vPliMs_KKxAdW1CnA2C8bniZy/view?usp=sharing. Note: In this test dataset, we simulated phenotypes in 5 tissues on the same set of individuals, so you should set the same genotype and GRM file paths for the 5 tissues
 
 ## Building from source
 
