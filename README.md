@@ -113,6 +113,8 @@ If there is an issue of population structure or cryptic relatedness for partial 
 
 -gene: Specify the gene/feature for which that you want to detect eQTL, which is a required parameter.
 
+We have prepared a test dataset, which is deposited in google drive: https://drive.google.com/file/d/1G8ccfR9vPliMs_KKxAdW1CnA2C8bniZy/view?usp=sharing
+
 ## Building from source
 
 Before compiling, please change the directionaries for the libraries, and unzip "armadillo-9.400.3.zip"
