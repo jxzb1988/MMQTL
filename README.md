@@ -117,7 +117,9 @@ We have prepared a test dataset, which is deposited in google drive: https://dri
 
 ## Building from source
 
-Before compiling, please change the directionaries for the libraries, and unzip "armadillo-9.400.3.zip"
+The source codes should be compiled in src folder.  
+
+Before compiling, please change the directionaries for the libraries, and unzip "armadillo-9.400.3.zip". Then type
 
 ```
 make
