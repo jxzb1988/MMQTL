@@ -12,7 +12,7 @@ CFLAGS= -c -Wall -g -O3  -I $(DIC)
 
 
 
-LDFLAGS= -DWITH_LAPACK -m64 -static  -lgsl  -lzlib  -latas -lboost  -lopenblas    -I  $(DIC)/armadillo-9.400.3/include   -lgsl -lgslcblas   -llapack  -lgfortran   -lblas  -lz   -fopenmp   -lquadmath
+LDFLAGS= -DWITH_LAPACK -m64 -static  -lgsl  -lzlib  -latas -lboost  -lopenblas    -I  $(DIC)/armadillo-9.400.3/include    -lgslcblas   -llapack  -lgfortran   -lblas  -lz   -fopenmp   -lquadmath
 
 
 
