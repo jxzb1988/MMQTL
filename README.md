@@ -56,7 +56,7 @@ MMQTL23 -h
 Example code
 
 ```
-MMQTL23 -b  -P  pheno_file.txt   -Z  geno_file.txt   -R GRM_file.txt -a feature_annotation.txt  -A random   -gene  gene_name 
+MMQTL23 -b  -P  pheno_file.txt   -Z  geno_file.txt   -R GRM_file.txt -a feature_annotation.bed  -A random   -gene  gene_name 
 ```
 
 Given that we have 5 tissues/conditions, named as condition1, condition2, condition3, condition4, condition5. 
@@ -110,6 +110,8 @@ path to GRM_file_5
 If there is an issue of population structure or cryptic relatedness for partial tissues/conditions, set the path as "NA" for those tissues/conditions without GRM files.
 
 -A: run mmQTL in random-effect or fixed-effect model when performing meta-analysis.
+
+-a: Specify the feature annotation, which should be bed format.
 
 -gene: Specify the gene/feature for which that you want to detect eQTL, which is a required parameter.
 
