@@ -13,6 +13,7 @@ Currently, mmQTL is supported for 64-bit Linux platforms.
 
 
 * [Key features](#key-features)
+* [New features](#new-features)
 * [Installation](#installation)
 * [Run mmQTL](#run-mmQTL)
 * [Building from source](#building-from-source)
@@ -28,6 +29,12 @@ Currently, mmQTL is supported for 64-bit Linux platforms.
 3. Meta-analysis to integrate QTL signal among conditions;
 
 4. Conditional analysis to find independent QTL signals.
+
+## New features
+
+1. When there is no individual data available, users can provide summary results and mmQTL conducts meta-analysis to integrate the QTL signal among datasets;
+
+2. Covariate matrix can be provided to control for confounding factors, and remove non-genetic variance.
 
 ## Installation
 
@@ -116,6 +123,10 @@ If there is an issue of population structure or cryptic relatedness for partial 
 -gene: Specify the gene/feature for which that you want to detect eQTL, which is a required parameter.
 
 We have prepared a test dataset, which is deposited in google drive: https://drive.google.com/file/d/1G8ccfR9vPliMs_KKxAdW1CnA2C8bniZy/view?usp=sharing. Note: In this test dataset, we simulated phenotypes in 5 tissues on the same set of individuals, so you should set the same genotype and GRM file paths for the 5 tissues
+
+When covariate information are available, -C can be used to specify the covariate file path, just like -Z and -P
+
+mmQTL can also use summary results to perform meta-analysis. Set -D  or -cis_summary to tell mmQTL to run QTL with summary results, and put the files containing QTL summary results in path files set by -P. 
 
 ## Building from source
 
