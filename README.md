@@ -51,7 +51,7 @@ To install mmQTL you can
 After downloading the precompiled mmQTL code, run the command
 
 ```
-chmod +x MMQTL23
+chmod +x MMQTL24
 ```
 
 to change the mode.
