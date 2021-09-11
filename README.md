@@ -32,6 +32,8 @@ Currently, mmQTL is supported for 64-bit Linux platforms.
 
 ## New features
 
+Some new features are included in v1.2.0.
+
 1. When there is no individual data available, users can provide summary results and mmQTL conducts meta-analysis to integrate the QTL signal among datasets;
 
 2. Covariate matrix can be provided to control for confounding factors, and remove non-genetic variance.
