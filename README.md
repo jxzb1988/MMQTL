@@ -59,13 +59,13 @@ to change the mode.
 To get mmQTL running options, you can type
 
 ```
-MMQTL23 -h
+MMQTL24 -h
 ```
 
 Example code
 
 ```
-MMQTL23 -b  -P  pheno_file.txt   -Z  geno_file.txt   -R GRM_file.txt -a feature_annotation.bed  -A random   -gene  gene_name 
+MMQTL24 -b  -P  pheno_file.txt   -Z  geno_file.txt   -R GRM_file.txt -a feature_annotation.bed  -A random   -gene  gene_name 
 ```
 
 Given that we have 5 tissues/conditions, named as condition1, condition2, condition3, condition4, condition5. 
