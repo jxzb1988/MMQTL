@@ -76,6 +76,8 @@ For genotype, the binary plink-format genotype files are named as genotype_file_
 
 You need an annotation file for the exploed features in bed format: chr start end feature_name;
 
+Make sure that position information in genotype match with those in annotation, and name chromosomes with digits.
+
 Optional, to apply mixed linear model to control for population strucutre, you need to provide GRM files, named as GRM_file_1, GRM_file_2, GRM_file_3, GRM_file_4, GRM_file_5.
 
 explanation for parameters: 
