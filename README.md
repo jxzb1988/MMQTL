@@ -70,7 +70,7 @@ MMQTL24 -b  -P  pheno_file.txt   -Z  geno_file.txt   -R GRM_file.txt -a feature_
 
 Given that we have 5 tissues/conditions, named as condition1, condition2, condition3, condition4, condition5. 
 
-For phenotype, the phenotype files (gxn matrix, g is the number of explored genes, and n is the sample size) are named as phenotype_file_1, phenotype_file2, phenotype_file3, phentoype_file4, phenotype_file5;
+For phenotype, the phenotype files ((g+1)x(n+1) matrix, g is the number of explored genes, and n is the sample size. Both column and row names should be included) are named as phenotype_file_1, phenotype_file2, phenotype_file3, phentoype_file4, phenotype_file5;
 
 For genotype, the binary plink-format genotype files are named as genotype_file_1, genotype_file_2, genotype_file_3, genotype_file_4, genotype_file_5;
 
