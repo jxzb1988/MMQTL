@@ -118,7 +118,7 @@ path/to/GRM_file_3
 path/to/GRM_file_4
 path/to/GRM_file_5
 ```
-The GRM file can be created with packages, like GEMMA, GCTA. For example, run command "gemma  -bfile plink_bfile_format -gk 2", which will created a *.sXX.txt file used in QTL detection.
+The GRM file can be created with packages, like GEMMA, GCTA. For example, run command "gemma  -bfile plink_bfile_format -gk 2", which will create a *.sXX.txt file used in QTL detection.
 
 If there is an issue of population structure or cryptic relatedness for partial tissues/conditions, set the path as "NA" for those tissues/conditions without GRM files.
 
