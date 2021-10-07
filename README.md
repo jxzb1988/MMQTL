@@ -72,7 +72,7 @@ Given that we have 5 tissues/conditions, named as condition1, condition2, condit
 
 For phenotype, the phenotype files ((g+1)x(n+1) matrix, g is the number of explored genes, and n is the sample size. Both column and row names should be included) are named as phenotype_file_1, phenotype_file2, phenotype_file3, phentoype_file4, phenotype_file5;
 
-For genotype, the binary plink-format genotype files are named as genotype_file_1, genotype_file_2, genotype_file_3, genotype_file_4, genotype_file_5;
+For genotype, the binary plink-format genotype files are named as genotype_file_1, genotype_file_2, genotype_file_3, genotype_file_4, genotype_file_5; To speed up mmQTL running, split genotype into chromosomes.
 
 You need an annotation file for the exploed features in bed format: chr start end feature_name;
 
@@ -95,16 +95,16 @@ path/to/phentoype_file_4
 path/to/phentoype_file_5
 ```
 
--Z: specify the location of the file containing the location of genotype files for each tissue/condition. The format for the genotype should be in PLINK format. To speed up mmQTL running, split genotype into chromosomes.
+-Z: specify the location of the file containing the location of genotype files for each tissue/condition. The format for the genotype should be in PLINK format. 
 
 This file should be: 
 
 ```
 path/to/genotype_file_1
 path/to/genotype_file_2
-path/to/enotype_file_3
-path/to/enotype_file_4
-path/to/enotype_file_5
+path/to/genotype_file_3
+path/to/genotype_file_4
+path/to/genotype_file_5
 ```
 
 
