@@ -32,11 +32,11 @@ Currently, mmQTL is supported for 64-bit Linux platforms.
 
 ## New features
 
-Some new features are included in v1.2.0.
+Some new features are included in v1.3.0.
 
-1. When there is no individual data available, users can provide summary results and mmQTL conducts meta-analysis to integrate the QTL signal among datasets;
+1. A license file is attached;
 
-2. Covariate matrix can be provided to control for confounding factors, and remove non-genetic variance.
+2. An option to adjust random-effect model by Han & Eksin method is introduced.
 
 ## Installation
 
@@ -51,7 +51,7 @@ To install mmQTL you can
 After downloading the precompiled mmQTL code, run the command
 
 ```
-chmod +x MMQTL24
+chmod +x MMQTL26
 ```
 
 to change the mode.
@@ -59,13 +59,13 @@ to change the mode.
 To get mmQTL running options, you can type
 
 ```
-MMQTL24 -h
+MMQTL26 -h
 ```
 
 Example code
 
 ```
-MMQTL24 -b  -P  pheno_file.txt   -Z  geno_file.txt   -R GRM_file.txt -a feature_annotation.bed  -A random   -gene  gene_name 
+MMQTL26 -b  -P  pheno_file.txt   -Z  geno_file.txt   -R GRM_file.txt -a feature_annotation.bed  -A random   -gene  gene_name 
 ```
 
 Given that we have 5 tissues/conditions, named as condition1, condition2, condition3, condition4, condition5. 
