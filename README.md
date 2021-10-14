@@ -89,10 +89,10 @@ This file should be:
 
 ```
 path/to/phenotype_file_1
-path/to/phentoype_file_2
+path/to/phenotype_file_2
 path/to/phenotype_file_3
-path/to/phentoype_file_4
-path/to/phentoype_file_5
+path/to/phenotype_file_4
+path/to/phenotype_file_5
 ```
 
 -Z: specify the location of the file containing the location of genotype files for each tissue/condition. The format for the genotype should be in PLINK format. 
