@@ -32,11 +32,13 @@ Currently, mmQTL is supported for 64-bit Linux platforms.
 
 ## New features
 
-Some new features are included in v1.3.0.
+Some new features are included in current version.
 
 1. A license file is attached;
 
-2. An option to adjust random-effect model by Han & Eksin method is introduced.
+2. An option to adjust random-effect model by Han & Eksin method is introduced;
+
+3. Bugs are fixed.
 
 ## Installation
 
