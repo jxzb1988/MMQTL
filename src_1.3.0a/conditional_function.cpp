@@ -1933,7 +1933,7 @@ double ConstructCovRandom(vector<vector<vector<double> > > &z_score_, vector<vec
          Cov.shed_cols(Indice_1); 
          Cov.shed_rows(Indice_1);     
          Cov1.shed_cols(Indice_1);
-         Cov1.shed_cols(Indice_1);
+         Cov1.shed_rows(Indice_1);
        } else if(Cov.n_rows-index.size()<minimum_tissue )
        {
 //         cout<<"Explored variant is: "<<variant_[0][i];
