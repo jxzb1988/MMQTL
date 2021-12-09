@@ -38,7 +38,13 @@ Some new features are included in current version.
 
 2. An option to adjust random-effect model by Han & Eksin method is introduced;
 
-3. Bugs are fixed.
+3. The default function to estimate covariance structure is switched to cor instead of cov;
+
+4. P-value cutoff to determine QTL signal and Z-score to determine non-significant variants can be set;
+
+5. Conditional analysis can be swithched off, and users can set the maximum number of independent QTL to report;
+
+6. Bugs are fixed.
 
 ## Installation
 
