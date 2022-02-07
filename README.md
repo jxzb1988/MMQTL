@@ -158,6 +158,10 @@ make
 
 Currently mmQTL takes PLINK format for genotype, and text for phenotype
 
+## Citation
+
+Biao Zeng, Jaroslav Bendl, Roman Kosoy, John F Fullard, Gabriel E Hoffman, Panos Roussos. Multi-ancestry eQTL meta-analysis of human brain identifies candidate causal variants for brain-related traits. Nat Genet (2022). https://doi.org/10.1038/s41588-021-00987-9
+
 ## Credits
 
 Biao Zeng, Icahn School of Medicine at Mount Sinai
